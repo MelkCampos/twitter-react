@@ -1,0 +1,52 @@
+.login-wrapper {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrapper form {
+    margin: 20px 0 0;
+    width: 100%;
+    max-width: 280px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.login-wrapper form input {
+    background-color: #fff;
+    border: 1px solid #ddd;
+   outline-style: none;
+    border-radius: 50px;
+    height: 44px;
+    padding: 0 5%;
+    font-size: 14px;
+    color: #636e72;
+}
+
+.login-wrapper form button {
+    margin: 10px 0 0;
+    background-color: #4bb0ee;
+    border-radius: 50px;
+    height: 44px;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    outline-style: none; /* Retirar bordas do Chrome */ 
+}
+
+.login-wrapper form button:hover {
+    background: #42a1db;
+}
+
+
+img {
+    width: 50px;
+    height: 50px;
+}
